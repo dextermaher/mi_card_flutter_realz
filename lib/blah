@@ -1,0 +1,45 @@
+Card(
+    color: Colors.black,
+    margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+//                child: Padding(
+//                  padding: const EdgeInsets.all(15.0),
+//              ),
+    child: ListTile(
+        leading: Icon(
+          Icons.launch,
+          color: Colors.teal.shade400,
+        ),
+        title: Text(
+          'BirdsArentReal.com',
+          style: TextStyle(
+            fontSize: 20.0,
+            color: Colors.teal.shade400,
+            fontFamily: 'Railway',
+          ),
+        ),
+    ),
+    ),
+  Card(
+    color: Colors.black,
+    margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+    child: Padding(
+      padding: const EdgeInsets.all(15.0),
+      child: Row(
+        children: <Widget>[
+          Icon(
+            Icons.looks,
+            color: Colors.teal.shade400,
+          ),
+          SizedBox(
+            width: 10.0,
+          ),
+          Text('Visit Our Merch Shop',
+              style: TextStyle(
+                color: Colors.teal.shade400,
+                fontFamily: 'Railway',
+                fontSize: 20.0,
+              ))
+        ],
+      ),
+    ),
+  ),
